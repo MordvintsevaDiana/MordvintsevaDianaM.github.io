@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Task 3 — Table & Form</title>
+ <link rel="stylesheet" href="styles.css">
+
+  
+</head>
+<body>
+
+  <!-- Header -->
+  <div class="header">
+    <h1>Task 3: Student Grades & Feedback Form</h1>
+  </div>
+
+  <!-- Navbar -->
+  <nav class="navbar">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="layout.html">Layout</a></li>
+      <li><a href="tribute.html">Tribute</a></li>
+      <li><a href="table_form.html">Table & Form</a></li>
+      <li><a href="wireframe.html">Wireframe</a></li>
+    </ul>
+  </nav>
+
+  <!-- Content -->
+  <div class="container">
+    <div class="content">
+
+      <!-- Table -->
+      <h2 id="grades-title">Student Grades</h2>
+      <table class="grades-table">
+        <tr>
+          <th>Movie Title</th>
+          <th>Award/Nomination</th>
+          <th>Year</th>
+        </tr>
+        <tr>
+          <td>Gentlemen Prefer Blondes</td>
+          <td>Popular Success</td>
+          <td>1953</td>
+        </tr>
+        <tr class="highlight-row">
+          <td>The Seven Year Itch</td>
+          <td>Iconic Scene ("subway dress")</td>
+          <td>1955</td>
+        </tr>
+        <tr>
+          <td>Bus Stop</td>
+          <td>Golden Globe Nomination</td>
+          <td>1956</td>
+        </tr>
+      </table>
+
+      <!-- Form -->
+      <h2>Feedback Form</h2>
+      <form class="feedback-form">
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name"><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email"><br><br>
+
+        <label for="role">Role:</label><br>
+        <select id="role" name="role">
+          <option>Student</option>
+          <option>Teacher</option>
+          <option>Other</option>
+        </select><br><br>
+
+        <p>Did you like this project?</p>
+        <input type="radio" id="yes" name="like" value="yes">
+        <label for="yes">Yes</label><br>
+        <input type="radio" id="no" name="like" value="no">
+        <label for="no">No</label><br><br>
+
+        <label for="comments">Comments:</label><br>
+        <textarea id="comments" name="comments"></textarea><br><br>
+
+        <button type="submit">Submit</button>
+      </form>
+
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <div class="footer">
+    <p>&copy; 2025 Mordvintseva Diana MT-2405
+  </div>
+
+</body>
+</html>
